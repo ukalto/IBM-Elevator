@@ -23,10 +23,10 @@ public class Main {
         es.addElevator(elevator6);
         es.addElevator(elevator7);
         es.removeElevator(elevator2);
-//        es.addRequest(12, 2);
-//        es.addRequest(2, 12);
-//        es.addRequest(8, 2);
-//        es.addRequest(8, 14);
+        es.addRequest(12, 2);
+        es.addRequest(2, 12);
+        es.addRequest(8, 2);
+        es.addRequest(8, 14);
         System.out.println(elevators.get(1).getId());
 
 
